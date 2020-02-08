@@ -1,0 +1,29 @@
+{
+  "name": "rest-api-demo-server",
+  "version": "1.0.0",
+  "description": "rest-api-demo-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arun9483/rest-api-server.git"
+  },
+  "keywords": [
+    "rest",
+    "api"
+  ],
+  "author": "arun kumar tripathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arun9483/rest-api-server/issues"
+  },
+  "homepage": "https://github.com/arun9483/rest-api-server#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
