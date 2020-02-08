@@ -5,7 +5,7 @@ const axios = require('axios');
 const router = express.Router();
 
 const app = express();
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 
 async function getUsers() {
   const resp = await axios.get('https://randomuser.me/api/?results=5');
